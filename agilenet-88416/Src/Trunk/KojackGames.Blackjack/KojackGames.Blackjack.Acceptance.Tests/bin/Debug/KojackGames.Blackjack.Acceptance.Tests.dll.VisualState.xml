@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1049]C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\bin\Debug\KojackGames.Blackjack.Acceptance.Tests.dll</TopNode>
+  <SelectedNode>[0-1012]KojackGames.Blackjack.Acceptance.Tests.Features.DealCardsFeature</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1049]C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\bin\Debug\KojackGames.Blackjack.Acceptance.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1050]KojackGames" Expanded="true" />
+    <Node UniqueName="[0-1051]KojackGames.Blackjack" Expanded="true" />
+    <Node UniqueName="[0-1052]KojackGames.Blackjack.Acceptance" Expanded="true" />
+    <Node UniqueName="[0-1053]KojackGames.Blackjack.Acceptance.Tests" Expanded="true" />
+    <Node UniqueName="[0-1054]KojackGames.Blackjack.Acceptance.Tests.Features" Expanded="true" />
+    <Node UniqueName="[0-1012]KojackGames.Blackjack.Acceptance.Tests.Features.DealCardsFeature" Expanded="true" />
+    <Node UniqueName="[0-1030]KojackGames.Blackjack.Acceptance.Tests.Features.DealerRulesFeature" Expanded="true" />
+    <Node UniqueName="[0-1023]KojackGames.Blackjack.Acceptance.Tests.Features.DeckOfCardsFeature" Expanded="true" />
+    <Node UniqueName="[0-1036]KojackGames.Blackjack.Acceptance.Tests.Features.DoubleDownFeature" Expanded="true" />
+    <Node UniqueName="[0-1032]KojackGames.Blackjack.Acceptance.Tests.Features.GetInvolvedInAGameFeature" Expanded="true" />
+    <Node UniqueName="[0-1000]KojackGames.Blackjack.Acceptance.Tests.Features.HitFeature" Expanded="true" />
+    <Node UniqueName="[0-1043]KojackGames.Blackjack.Acceptance.Tests.Features.InsuranceFeature" Expanded="true" />
+    <Node UniqueName="[0-1003]KojackGames.Blackjack.Acceptance.Tests.Features.MemberRegistrationDataFeature" Expanded="true" />
+    <Node UniqueName="[0-1014]KojackGames.Blackjack.Acceptance.Tests.Features.MemberRegistrationFeature" Expanded="true" />
+    <Node UniqueName="[0-1028]KojackGames.Blackjack.Acceptance.Tests.Features.PayingOutFeature" Expanded="true" />
+    <Node UniqueName="[0-1018]KojackGames.Blackjack.Acceptance.Tests.Features.SplitFeature" Expanded="true" />
+    <Node UniqueName="[0-1041]KojackGames.Blackjack.Acceptance.Tests.Features.StandFeature" Expanded="true" />
+    <Node UniqueName="[0-1005]KojackGames.Blackjack.Acceptance.Tests.Features.WinGameFeature" Expanded="true" />
+  </Nodes>
+</VisualState>

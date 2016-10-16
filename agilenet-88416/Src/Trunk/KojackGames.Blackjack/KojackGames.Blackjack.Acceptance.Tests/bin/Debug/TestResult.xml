@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\bin\Debug\KojackGames.Blackjack.Acceptance.Tests.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-05-16" time="22:11:15">
+  <environment nunit-version="2.5.5.10112" clr-version="4.0.30319.225" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack" machine-name="DEV" user="bussaman" user-domain="DEV" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\bin\Debug\KojackGames.Blackjack.Acceptance.Tests.dll" executed="True" result="Failure" success="False" time="4.805" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="KojackGames" executed="True" result="Failure" success="False" time="4.797" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Blackjack" executed="True" result="Failure" success="False" time="4.797" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Acceptance" executed="True" result="Failure" success="False" time="4.789" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="4.789" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="4.789" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="DealCardsFeature" description="Deal Cards" executed="True" result="Failure" success="False" time="4.695" asserts="0">
+                            <results>
+                              <test-case name="KojackGames.Blackjack.Acceptance.Tests.Features.DealCardsFeature.Deal" description="Deal" executed="True" result="Error" success="False" time="4.320" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.Net.Sockets.SocketException : Only one usage of each socket address (protocol/network address/port) is normally permitted]]></message>
+                                  <stack-trace><![CDATA[
+Server stack trace:
+at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+at Cassini.Host.Start()
+at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]& outArgs)
+at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]:
+at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+at Cassini.Host.Start()
+at Cassini.Server.Start()
+at KojackGames.Blackjack.Acceptance.Tests.Utilities.WebBrowser.InitializeBrowser() in C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\Utilities\WebBrowser.cs:line 40
+at KojackGames.Blackjack.Acceptance.Tests.Events.FeatureEvents.BeforeScenario() in C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\Events\FeatureEvents.cs:line 24
+at lambda_method(Closure )
+at TechTalk.SpecFlow.Bindings.MethodBinding.InvokeAction(Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+at TechTalk.SpecFlow.TestRunner.FireEvents(BindingEvent bindingEvent, IEnumerable`1 tags)
+at TechTalk.SpecFlow.TestRunner.FireScenarioEvents(BindingEvent bindingEvent)
+at TechTalk.SpecFlow.TestRunner.OnScenarioStart(ScenarioInfo scenarioInfo)
+at KojackGames.Blackjack.Acceptance.Tests.Features.DealCardsFeature.ScenarioSetup(ScenarioInfo scenarioInfo) in C:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\Features\002-DealCards.feature.cs:line 0
+at KojackGames.Blackjack.Acceptance.Tests.Features.DealCardsFeature.Deal() in c:\Users\bussaman\Desktop\agilenet-88416\Src\Trunk\KojackGames.Blackjack\KojackGames.Blackjack.Acceptance.Tests\Features\002-DealCards.feature:line 6
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
